@@ -1,0 +1,29 @@
+#-----------------------------------------------------------------------------
+#                             SPRING CONFIGURATION
+#-----------------------------------------------------------------------------
+
+server:
+  port: 8585
+
+
+spring:
+  application:
+    name: notificationcenter
+
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/notificationcenter
+#    password: 12345
+#    username: postgres
+
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    listener:
+#      type: batch
+#    producer:
+#      key-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+#      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+#    consumer:
+#      group-id: notificationcenter
+#      key-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+#      enable-auto-commit: true
